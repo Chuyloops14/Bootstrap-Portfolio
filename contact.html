@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Jesus Alpizars portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Jesus Alpizar</title>
     <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+    <link media="screen">
 </head>
-<body>
-    <div id="header">
-        <header>
-            <h1>Jesus Alpizar</h1>
-        </header>
-    </div>
-    <div class="container">
-        <h1 id="page-heading">Contact</h1>
-        <hr>
 
-        <form action="alpizarjesus84@gmail.com" method="POST">
-            <section>
-                <label for="name">Name</label>
-                <br>
-                <input type="text" name="email" id="email" placeholder="example@gmail.com">
-            </section>
-            <section>
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="text" name="email" id="email" placeholder="example@gmail.com">
-            </section>
-            <section>
-                <label for="message">Message</label>
-                <br>
-                <textarea name="message" id="message" rows="10" cols="130"></textarea>
-            </section>
-            <section>
-                <input type="submit" id="submit">
-            </section>
-        </form>
+<body>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id=logo>Jesus Alpizar</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="Portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="Email">Email</label>
+                        <input type="Email" id="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label from="email">Email</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+            </form>
+
+        </section>
     </div>
-    <div id="footer">
-        <footer>Copyright</footer>
-    </div>
+
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
 </body>
 </html>
