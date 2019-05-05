@@ -9,36 +9,38 @@
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id=logo>Jesus Alpizar</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="Portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Contact</h1>
-
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="Email">Email</label>
-                        <input type="Email" id="email" placeholder="example@gmail.com" required="required">
+        <body>
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="index.html">About me</a>
                     </li>
-                    <li>
-                        <label from="email">Email</label>
-                        <textarea id="message" name="message" required="required"></textarea>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-            </form>
+            </body>
 
-        </section>
-    </div>
+        <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+</body>
 
     <footer>
         <div class="container">
